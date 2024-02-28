@@ -1,0 +1,11 @@
+@restAPI-practice_HostAddress = https://localhost:7045
+@restAPI_practice_HostAddress = http://localhost:5117
+
+GET {{restAPI_practice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{restAPI-practice_HostAddress}}/api/superhero
+
+###
